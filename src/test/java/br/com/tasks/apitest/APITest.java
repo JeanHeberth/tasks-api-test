@@ -93,7 +93,6 @@ public class APITest {
                 .get("todo")
                 .then()
                 .statusCode(200)
-                .log().all()
         ;
     }
 }
