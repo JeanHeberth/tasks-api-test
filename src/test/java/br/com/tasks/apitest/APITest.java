@@ -13,7 +13,7 @@ public class APITest {
 
     @BeforeClass
     public static void setup() {
-        RestAssured.baseURI = "http://localhost:8015/tasks-backend/";
+        RestAssured.baseURI = "http://localhost:8016/tasks-backend/";
     }
 
 
